@@ -1,0 +1,14 @@
+mpicxx -std=c++20 -O3 mpi_mvm_1d_decom.cpp  -o mpiapp
+mpiexec -np 8 ./mpiapp
+
+mpiexec -np 1 ./mpiapp
+
+mpiexec -tmpdir /Users/shri/Documents/ESDS/Semester_3/PDP/Intro_To_PDP/assignments/MPI_Exercises/temp -np 8 ./mpiapp
+
+mpiexec -machinefile nodelist.txt -n 65536 mpiapp
+
+
+mpicxx -std=c++20 -O3 temp.c -o mpiapp
+mpiexec -np 2 ./mpiapp
+
+g++ -std=c++20 -O3 mpi_mvm_1d_decom.cpp -o sequential
