@@ -9,7 +9,7 @@ Implemented Algorithms:
 - Jacobi Iteration
 - Pi Calculation
 - Prime Number Generation
-- Sorting (TBD)
+- Sorting
 - Matrix Vector Multiplication (TBD)
 - Matrix Matrix Multiplication (TBD)
 
