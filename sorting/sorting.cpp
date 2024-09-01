@@ -5,7 +5,7 @@
 
 #include <mpi.h>
 
-#include "a2.hpp"
+#include "sorting.hpp"
 
 
 int main(int argc, char* argv[]) {
